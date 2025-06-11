@@ -1,0 +1,28 @@
+.heroBanner {
+    position: relative;
+    height: 60vh; /* Chiều cao tương đối so với viewport */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Lớp phủ màu đen mờ */
+  }
+  
+  .heroContent {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    padding: 20px;
+  } 

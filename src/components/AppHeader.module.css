@@ -1,0 +1,51 @@
+/* src/components/AppHeader.module.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff !important;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 0 50px;
+    width: 100%;
+    height: 64px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1890ff; /* Màu xanh của Ant Design */
+    min-width: 120px;
+  }
+  
+  .menu {
+    flex: 1;
+    justify-content: center;
+    border-bottom: none;
+    background: #fff;
+    line-height: 64px;
+  }
+  
+  /* Ghi đè màu chữ mặc định của Antd Menu */
+  .menu :global(.ant-menu-item),
+  .menu :global(.ant-menu-item-selected) {
+    color: #333 !important;
+  }
+  
+  .menu :global(.ant-menu-item::after) {
+      border-bottom-color: #1890ff !important;
+  }
+
+  /* Đảm bảo menu items được căn giữa */
+  .menu :global(.ant-menu-overflow) {
+    justify-content: center;
+    border: none;
+  }
+
+  /* Style cho button login */
+  .header button {
+    margin-left: 20px;
+  }
