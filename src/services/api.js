@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://landing-page-backend-ashy.vercel.app/api';
+const API_BASE_URL = 'https://landing-page-backend-mhien862s-projects.vercel.app/api';
 
 // Tạo instance axios với config mặc định
 const apiClient = axios.create({
