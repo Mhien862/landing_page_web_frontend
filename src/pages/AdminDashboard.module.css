@@ -1,0 +1,12 @@
+.logo {
+  padding: 16px;
+  border-bottom: 1px solid #303030;
+}
+
+.logo h2 {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+} 

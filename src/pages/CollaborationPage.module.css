@@ -1,0 +1,113 @@
+.container {
+  padding: 40px 5%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mainTitle {
+  text-align: center;
+  color: #1890ff !important;
+  margin-bottom: 40px !important;
+}
+
+.content {
+  margin-top: 40px;
+}
+
+.textContent {
+  padding: 20px;
+}
+
+.introText {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 30px !important;
+}
+
+.reasonList {
+  margin-bottom: 30px;
+}
+
+.reasonItem {
+  margin-bottom: 25px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.highlight {
+  margin-top: 8px;
+  margin-left: 20px;
+}
+
+.highlight :global(.ant-typography) {
+  color: #666;
+}
+
+.highlight :first-child {
+  color: #1890ff;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.conclusionText {
+  font-size: 18px;
+  color: #333;
+  margin: 30px 0 !important;
+}
+
+.contactButton {
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #1890ff;
+  border-radius: 25px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.contactButton:hover {
+  background-color: #40a9ff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(24, 144, 255, 0.3);
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.illustration {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px 15px;
+  }
+
+  .mainTitle {
+    font-size: 24px !important;
+  }
+
+  .introText,
+  .conclusionText {
+    font-size: 16px;
+  }
+
+  .reasonItem {
+    font-size: 14px;
+  }
+
+  .contactButton {
+    width: 100%;
+    font-size: 16px;
+    height: 45px;
+  }
+} 

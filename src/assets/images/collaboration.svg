@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <style>
+    .primary{fill:#1890ff}.secondary{fill:#40a9ff}.accent{fill:#096dd9}.light{fill:#e6f7ff}
+    .screen{fill:#fff}.text{fill:#333}.chart{fill:#52c41a}
+  </style>
+  <rect width="800" height="600" fill="none"/>
+  <!-- Desk -->
+  <path class="light" d="M100,400 h600 v20 h-600 z"/>
+  <!-- Computer Screen -->
+  <path class="screen" d="M200,200 h300 v200 h-300 z"/>
+  <path class="primary" d="M180,400 h340 v10 h-340 z"/>
+  <!-- Charts on Screen -->
+  <path class="chart" d="M250,250 v100 h40 v-100 z"/>
+  <path class="accent" d="M300,280 v70 h40 v-70 z"/>
+  <path class="secondary" d="M350,300 v50 h40 v-50 z"/>
+  <!-- Person 1 -->
+  <circle class="primary" cx="150" cy="320" r="30"/>
+  <path class="primary" d="M150,350 v30 h-20 v-30 z"/>
+  <!-- Person 2 -->
+  <circle class="accent" cx="550" cy="320" r="30"/>
+  <path class="accent" d="M550,350 v30 h20 v-30 z"/>
+  <!-- Connection Lines -->
+  <path class="secondary" d="M200,320 h200" stroke-width="4" stroke-dasharray="10,5"/>
+  <!-- Data Icons -->
+  <circle class="light" cx="300" cy="150" r="20"/>
+  <circle class="light" cx="400" cy="150" r="20"/>
+  <circle class="light" cx="500" cy="150" r="20"/>
+</svg> 

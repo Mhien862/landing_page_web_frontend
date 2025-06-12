@@ -70,6 +70,29 @@
   color: #666;
 }
 
+.description {
+  margin: 30px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+  text-align: justify;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.websiteName {
+  color: #ff4d4f;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #ff1493;
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 @media (max-width: 768px) {
   .container {
     padding: 20px 15px;

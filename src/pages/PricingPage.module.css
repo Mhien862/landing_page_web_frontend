@@ -1,0 +1,130 @@
+.container {
+  padding: 40px 5%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.mainTitle {
+  color: #ff4d4f !important;
+  margin-bottom: 20px !important;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #666;
+}
+
+.pricingGrid {
+  margin-bottom: 50px;
+}
+
+.pricingCard {
+  height: 100%;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.pricingCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.price {
+  color: #ff4d4f !important;
+  font-size: 48px !important;
+  margin-bottom: 10px !important;
+}
+
+.price::before {
+  content: "₫";
+  font-size: 24px;
+  vertical-align: super;
+  margin-right: 5px;
+}
+
+.packageName {
+  color: #1890ff !important;
+  margin-bottom: 20px !important;
+}
+
+.description {
+  color: #666;
+  margin-bottom: 30px;
+  min-height: 80px;
+}
+
+.featureList {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.giftList {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.checkIcon {
+  color: #52c41a;
+  font-size: 16px;
+}
+
+.giftIcon {
+  color: #ff4d4f;
+  font-size: 16px;
+}
+
+.registerButton {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.description {
+  margin: 30px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+  text-align: justify;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.highlight {
+  color: #ff1493;
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px 15px;
+  }
+
+  .mainTitle {
+    font-size: 24px !important;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .price {
+    font-size: 36px !important;
+  }
+
+  .description {
+    min-height: auto;
+    margin-bottom: 20px;
+  }
+} 
